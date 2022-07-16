@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align self</title>
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: 2px solid black;
+            display: flex;
+            margin-bottom: 10px;
+            
+        }
+        .align-container{
+            align-items: center;
+        }
+        .item{
+            background-color: grey;
+            color: black;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: flex-start;
+        }
+        .end{
+            align-self: flex-end;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        .stretch{
+            align-self: stretch;
+        }
+        .auto{
+            align-self: auto;
+        }
+        .direction{
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+    <H2>ROW</H2>
+    <p>auto</p>
+    <div class="flex-container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">BBB</div>
+        <div class="item auto">CCC  cDCCC</div>
+        <div class="item auto">DDDE</div>
+        <div class="item auto">EEEFGH</div>
+    </div>
+
+    <p>mix</p>
+    <div class="flex-container">
+        <div class="item start">AAA</div>
+        <div class="item stretch">BBB</div>
+        <div class="item end">CCC  cDCCC</div>
+        <div class="item center">DDDE</div>
+        <div class="item start">EEEFGH</div>
+    </div>
+
+    <p>another mix</p>
+    <div class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">BBBB</div>
+        <div class="item end">CCCcDCCC</div>
+        <div class="item stretch">DDDE</div>
+        <div class="item auto">EEEFG
+            HHFGHFHGH
+            FGHFGHJH
+            DDFGD
+            FG</div>
+    </div>
+    <h2>Column</h2>
+
+    <div class="flex-container direction">
+        <div class="item center">AAA</div>
+        <div class="item start">BBBB</div>
+        <div class="item end">CCCcDCCC</div>
+        <div class="item stretch">DDDE</div>
+        <div class="item auto">EEEFG
+            HHFGHFHGH
+            FGHFGHJH
+            DDFGD
+            FG</div>
+    </div>
+
+    <p>mix</p>
+    <div class="flex-container direction">
+        <div class="item start">AAA</div>
+        <div class="item stretch">BBB</div>
+        <div class="item end">CCC  cDCCC</div>
+        <div class="item center">DDDE</div>
+        <div class="item start">EEEFGH</div>
+    </div>
+
+    <p>auto</p>
+    <div class="flex-container direction">
+        <div class="item auto">AAA</div>
+        <div class="item auto">BBB</div>
+        <div class="item auto">CCC  cDCCC</div>
+        <div class="item auto">DDDE</div>
+        <div class="item auto">EEEFGH</div>
+    </div>
+
+</body>
+</html>
