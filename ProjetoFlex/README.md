@@ -20,7 +20,7 @@ as limitações foram definidas através de itens Flex, pseudoelementos Flexbox,
 
 E esse é o resultado, aprendi muito sobre posicionamento de itens, sobre responsividade e outros, conhecimento de grande valia para entender o frontend dos sites.
 * Obrigado por visitar meu repositório GIT!
-- [@Acesse o projeto](https://github.com/Renaky/Dio-Bootcamp-St/tree/main/ProjetoFlex/flex-projeto-final)
+- [Acesse o projeto](https://github.com/Renaky/Dio-Bootcamp-St/tree/main/ProjetoFlex/flex-projeto-final)
 ## Autor
 
 - [@Emerson Renaki](https://www.github.com/renaky)
